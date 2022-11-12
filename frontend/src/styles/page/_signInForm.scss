@@ -1,0 +1,112 @@
+/* Pour le formulaire de connexion; et utilisé aussi pour le formulaire d'inscription*/
+
+.position-signin {
+  top: 18%;
+}
+
+.card-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+
+  input {
+    padding: 12px;
+    margin: 8px;
+    border-radius: 7px;
+    border-color: rgba(0,0, 0, 0.29);
+    width: 92%;
+
+
+  }
+
+  input[type="email"] {
+    text-transform: lowercase;
+
+  }
+
+  .icon {
+    width: 285px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 15px;
+
+  }
+
+
+  .title {
+    padding: 15px;
+    font-weight: 600;
+    color: rgba(61,61,61,0.86);
+  }
+
+}
+
+
+.form-login {
+  background: rgb(255 254 254 / 85%);
+  border-radius: 20px;
+  height: 400px;
+  padding: 7px 35px;
+  margin-top: 40px;
+
+  button {
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+    border-color: rgba(0, 0, 0, 0.29);
+    border-radius: 7px;
+    width: 189px;
+    color: rgba(61, 61, 61, 0.86);
+    font-weight: 800;
+    background-color: #d6cffc;
+
+
+  }
+
+
+  p {
+    text-align: center;
+    color: rgba(61, 61, 61, 0.86);
+    font-weight: bold;
+    padding: 3px;
+    width: 101.3%;
+
+
+  }
+}
+
+.text-logo {
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+
+}
+
+.police-separator {
+  width: 100%;
+  margin: 30px auto;
+  height: 3px;
+  background: #606060;
+
+
+}
+
+// Media queries
+@media only screen and (max-height: 744px) {
+
+  .card-login {
+    top: 30px;
+  }
+}

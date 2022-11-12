@@ -1,0 +1,117 @@
+// Pour les card de nos postes
+
+.card-post {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 35px;
+  background-color: white;
+  border: solid 0 white;
+  padding: 15px 0;
+  font-size: 12px;
+  max-width: 450px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  margin: 15px 0;
+  max-width: 450px;
+  max-height: 375px;
+  object-fit: cover;
+
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-name, .card-date {
+  margin: 0 20px;
+}
+
+.card-name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #525252;
+}
+
+.card-date {
+  color: #6c6c6c;
+}
+
+.card-text {
+  padding: 15px 15px 15px 15px;
+  margin-left: 10px;
+}
+
+
+.card-logo {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.fa-heart, .fa-comment, .fa-retweet {
+
+  padding: 5px;
+  cursor: pointer;
+  color: #afafd0;
+
+}
+
+.like {
+  color: #d437f6 !important;
+}
+
+.card-post-number-like {
+  margin-left: 25px;
+  font-weight: bold;
+  color: #525252;
+}
+
+.modify-button {
+  position: absolute;
+  margin-top: 3px;
+  right: 10px;
+  bottom: 46px;
+  border-color: #a4a4e3;
+  background: white;
+  padding: 2px;
+  font-size: 12px;
+  outline: white;
+  color: #4D4D4D;
+  font-weight: 600;
+
+  &:focus, &:active {
+    outline: black;
+    border-color: black;
+  }
+}
+
+.card-post-button-like {
+  border: none;
+  font-size: 18px;
+  background: white;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:active, &:focus {
+    border: initial;
+  }
+}
+
+@media only screen and (max-width: 744px) {
+
+  .card-post{
+    width: 100%;
+  }
+
+}

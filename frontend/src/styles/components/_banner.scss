@@ -1,0 +1,36 @@
+// Banner de la page home
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 290px;
+  margin: auto;
+}
+
+.disconnect-icon {
+  text-align: center;
+}
+
+.button-banner {
+  background-color: white;
+  margin: 20px 5px 0;
+  padding: 8px 5px;
+  color: #4E5166;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px 5px 0 0;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}

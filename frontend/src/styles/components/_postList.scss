@@ -1,0 +1,14 @@
+// Pour la liste des postes
+
+.post-list {
+  width: 100%;
+  background-color: #f7f7fc;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 744px) {
+
+  .post-list {;
+    padding: 40px 0;
+  }
+}
